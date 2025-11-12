@@ -10,15 +10,25 @@ We use reset to unstage change, but we can also do many more different things.
 ## Task
 
 1. How does your working directory look like?
+- 10 .txt files
 2. What does your log look like? What does your stage look like?
+- 10 logs each with one file, stage is clean
 3. Try to run `git reset --soft HEAD~1`
+- Done
 4. What happens to your working directory, your log and your stage?
+- Working dir: unchanged, log has one less commit, `10.txt` is staged
 5. Run `git reset --mixed HEAD~1`
+- Done
 6. What happens to your working directory, your log and your stage?
+- Working dir: unchanged, log has one less commit, `10.txt` and `9.txt` are unstaged.
 7. Run `git reset --hard HEAD~1`
+- Done
 8. What happens to your working directory, your log and your stage?
+- `8.txt` disappeared, log has one less commit, stage has `9.txt` and `10.txt` with changes unstaged.
 9. Now try to use `git revert HEAD~1`
+- Done
 10. What happens to your working directory, your log and your stage?
+- `6` and `8` are gone, log has a new commit saying "Revert 6", stage has `9` and `10` with changes unstaged.
 
 ## Useful commands
 
