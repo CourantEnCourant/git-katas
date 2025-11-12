@@ -13,11 +13,18 @@ You can use `git log -p` or `git show` to inspect the contents of commits and fi
 ## The task
 
 1. What does `git status` tell us?
+- `bar.txt` to be staged
 2. What does `git log -p` tell us?
+- It's like `git log` + `git diff`, btw since we only have one commit it's same as `git show`
 3. Stage the addition of bar.txt
+- Done
 4. Run `git commit --amend`
+- Done
 5. What happened? What does `git log -p` tell us?
+- Two files added. Commit message to be edited.
+- We add the staged file to last commit. We modified the commit msg.
 6. What happens if you run `git commit --amend` again?
+- We can modify the commit msg.
 
 ## Useful commands
 
