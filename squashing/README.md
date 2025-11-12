@@ -15,8 +15,11 @@ While you are at it I would really like the ugly `\n` characters inside `file.tx
 ## The task
 
 1. _Squash_ the five relevant commits into one and make a good commit message (see Further information).
+- Done
 2. How does `git log` look now?
+- Five "very relevant" commits (ironic)
 3. Clean up the `\n` characters inside `file.txt` without adding to the commit history.
+- Basically use `git commit --amend`
 
 ## Useful commands
 
