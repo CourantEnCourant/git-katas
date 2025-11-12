@@ -20,7 +20,7 @@ Both changes need to be in master when you're done.
 4. Follow the instructions in `git status` to complete the merge.
 - Done
 5. What does `git log --oneline --graph` show?
-- Merge successful from "merge-conflit-branch1" to "master"
+- Merge successful from "merge-conflict-branch1" to "master"
 
 ## Relevant commands
 - `git merge`
