@@ -13,9 +13,13 @@ You should fix this such that our `git log` looks great!
 Reorder the history such that it actually makes sense - add the files in the order that matches their name.
 
 1. Use `git log --oneline --graph` to view the commits
+- Makes one want to write a sort algorithm...
 2. Also try `git reflog` to view the commits. `git reflog` defaults to `git reflog show` and this is an alias for `git log -g --abbrev-commit --pretty=oneline`
-3. Use `git rebase -i <after-this-commit>` to reorder the commits. There are commments in the file you edit that explain the commands available.
+- Done
+3. Use `git rebase -i <after-this-commit>` to reorder the commits. There are comments in the file you edit that explain the commands available.
+- Done
 4. Use `git log --oneline --graph` to view the result
+- Everything in order and neat!
 
 ### useful commands
 
